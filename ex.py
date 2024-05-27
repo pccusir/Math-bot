@@ -23,9 +23,9 @@ words_dict = {
 
 # 使用者輸入英文單字
 
-while True:
-    Q = input("請輸入英文單字：").lower()
-    if Q == 'quit':
-        break
-    A=words_dict[Q]
-    print("答案:",A )
+
+Q = input("請輸入英文單字：").lower()
+if Q == 'quit':
+    break
+A=words_dict[Q]
+print("答案:",A )
